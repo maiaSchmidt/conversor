@@ -22,7 +22,7 @@ import masch.conversor.fronteira.processadorrequisicao.PedidoConversao;
 public class AplicacaoConversor extends Application 
 {
 	//Específica quais classes fazem colaboram com o Jersey servlet no tratamento
-	//das requisições
+	//das requisições.
 	@Override
 	public Set<Class<?>> getClasses() {
 		 Set<Class<?>> s = new HashSet<Class<?>>();
