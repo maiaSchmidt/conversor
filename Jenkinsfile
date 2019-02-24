@@ -10,6 +10,7 @@ pipeline {
       steps {
  
         sh 'mvn -f ./RestConversor/pom.xml clean install'
+        archiveArtifacts artifacts: '**/target/*.war', fingerprint: true
  
       }
  
